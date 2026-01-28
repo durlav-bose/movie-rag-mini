@@ -127,10 +127,13 @@ You'll see:
 Quick summary:
 1. Go to https://cloud.mongodb.com/
 2. Navigate to your Cluster0
-3. Click "Atlas Search" tab
-4. Create new index with name: `movie_embeddings_index`
-5. Use the JSON config from MONGODB_INDEX_SETUP.md
-6. Wait for it to become "Active"
+3. Click **"Search"** or **"Search & Vector Search"** tab
+4. Click **"Create Search Index"**
+5. Select **"Vector Search"** type (NOT "Atlas Search")
+6. Name it: `movie_embeddings_index`
+7. Select database `sample_mflix` and collection `movies`
+8. Use the JSON config from MONGODB_INDEX_SETUP.md
+9. Wait for it to become "Active" (green status)
 
 ## 🎯 Step 9: Try Semantic Search!
 
